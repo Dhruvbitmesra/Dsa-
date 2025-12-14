@@ -12,7 +12,7 @@ def partition(nums, low, high):
             nums[i], nums[j] = nums[j], nums[i]
 
     nums[low], nums[j] = nums[j], nums[low]
-    return j
+    return j 
 
 
 def quick_sort(nums, low, high):
