@@ -28,7 +28,7 @@ def opti(mat):
     return mat
 
 
-print(brute(mat))
+print(opti(mat))
 
 
 #########brute 2 
